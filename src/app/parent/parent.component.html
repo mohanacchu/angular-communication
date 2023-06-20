@@ -1,0 +1,3 @@
+<p>Parent Component : {{childData}}</p>
+<app-child [message]="myText" (dataEvent)="receiveData($event)"></app-child>
+<button (click)="updateData()">Send Data to Component3</button>
